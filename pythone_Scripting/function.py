@@ -45,12 +45,9 @@ print(x)
 
 
 # Global abd local Scopes
-def egg():
-      eggs=99
-      bacon()
-      print(eggs)
-def bacon():
-      ham=120
-      eggs=18
-
-egg()            
+x=250  #global
+def some_function():
+      x=150 #local
+      print("Inside "+ str(x))
+some_function()                
+print("Outside "+ str(x))

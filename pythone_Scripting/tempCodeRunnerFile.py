@@ -1,2 +1,1 @@
-
-y= myfunc(2)  
+car
